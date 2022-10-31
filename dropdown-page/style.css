@@ -21,7 +21,8 @@ body {
 
 .main-menu-item {
   display: inline-block;
-  cursor: relative;
+  cursor: pointer;
+  position: relative;
 }
 
 .main-menu-item a,
@@ -42,6 +43,17 @@ body {
   top: 59;
   left: 0;
   display: none;
+}
+
+.main-menu-item:hover > a,
+.main-menu-item:hover > span {
+  background-color: rgb(34 116 175);
+  color: white;
+}
+
+.sub-menu-item:hover > a {
+  background-color: rgb(66 130 177);
+  color: white;
 }
 
 .main-menu-item:hover > .sub-menu {
