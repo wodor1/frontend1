@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: auto;
+  margin: auto;
+}
+main {
+  background-color: #272525;
+  margin: 100px;
+  padding: 40px;
+  padding-left: 60px;
+}
+.page-title {
+}
+.created-date {
+  color: grey;
+}
+.main-menu {
+  color: white;
+  padding: 0;
+  list-style: none;
+}
+.main-menu-item {
+  display: inline;
+}
+.content-lead {
+  font-weight: 100;
+}
